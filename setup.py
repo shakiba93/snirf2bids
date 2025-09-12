@@ -19,6 +19,8 @@ URL = 'https://github.com/BUNPC/snirf2bids'
 EMAIL = 'skura@bu.edu'
 AUTHOR = 'JC'
 REQUIRES_PYTHON = '>=3.6.0'
+VERSION = "0.1.0"
+
 
 about = {}
 about['__version__'] = "0.1.0"
