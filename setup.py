@@ -10,7 +10,7 @@ import sys
 from shutil import rmtree
 
 from setuptools import find_packages, setup, Command
-from snirf2bids.__version__ import __version__ as VERSION
+# from snirf2bids.__version__ import __version__ as VERSION
 
 # Package meta-data.
 NAME = 'snirf2bids'
@@ -21,7 +21,7 @@ AUTHOR = 'JC'
 REQUIRES_PYTHON = '>=3.6.0'
 
 about = {}
-about['__version__'] = VERSION
+about['__version__'] = "0.1.0"
 
 # What packages are required for this module to be executed?
 REQUIRED = [
